@@ -1,0 +1,121 @@
+body
+{
+     background-color: #763AB7;
+     font-family: sans-serif;
+
+}
+
+form
+{
+     width: 500px;
+     margin: 8% auto;
+     padding: 50px 0;
+     text-align: center;
+     -webkit-box-shadow: 0px 1px 13px 2px #000000; 
+     box-shadow: 0px 1px 20px 0px #000000;
+}
+
+.input-box
+{
+     margin: 30px auto;
+     width: 80%;
+     position: relative;
+     box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+
+}
+
+.input-box input
+{
+     width: 88%;
+     height: 40px;
+     border: none;
+     background-color: #efefef;
+     padding-left: 50px;
+}
+
+span 
+{
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 40px;
+     background: linear-gradient(to right, #4CAF50,#00BCD4);
+}
+
+span .fas
+{
+     padding: 10px;
+     color: #ffffff;
+}
+
+button
+{
+     width: 130px;
+     height: 40px;
+     margin-left: 10%;
+     display: block;
+     color: white;
+     border: 0;
+     font-size: 16px;
+     outline: none;
+     background: linear-gradient(to right, #4CAF50,#00BCD4);
+     box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+     cursor: pointer;
+}
+
+button .fas
+{
+     margin-right: 10px;
+}
+
+form img
+{
+     width: 100px;
+     margin-top: -100px;
+}
+
+.password-strength-indicator
+{
+     font-size: 12px;
+     display: inline-block;
+     height: 15px;
+     min-width: 20%;
+     text-align: center;
+     transition: 1s;
+     margin: 50px 0;
+     color: white;
+}
+
+.password-strength-indicator.very-weak
+{
+    background: #c50000;
+    width: 20%;
+}
+
+.password-strength-indicator.weak
+{
+    background: #f6891f;
+    width: 40%;
+}
+
+.password-strength-indicator.mediocre
+{
+    background: #eeee00;
+    color: #222;
+    width: 60%;
+}
+
+.password-strength-indicator.strong
+{
+    background: #99ff33;
+    color: #222;
+    width: 80%;
+}
+
+.password-strength-indicator.very-strong
+{
+    background: #22cf00;
+    color: #222;
+    width: 100%;
+}
