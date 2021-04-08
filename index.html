@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" />
+     <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script src="jquery.passwordstrength.js"></script>     
+
+</head>
+<body>
+     
+<form action="">
+     <img src="undraw_male_avatar_323b.svg" alt="">
+     <div class="input-box">
+          <span><i class="fas fa-user"></i></span><input type="text" placeholder="Username" required>
+     </div>
+     <div class="input-box">
+          <span><i class="fas fa-envelope"></i></span><input type="email" placeholder="Email" required>
+     </div>
+     <div class="input-box">
+          <span><i class="fas fa-key"></i></span><input type="password" placeholder="Password" id="password" required>
+     </div>
+     <button type="submit"><i class="fas fa-sign-in-alt"></i>Login</button>
+</form>
+
+
+
+<script type="text/javascript">
+     $(function() {
+         $("#password").passwordStrength();
+     });
+ </script>
+
+</body>
+</html>
